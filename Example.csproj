@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FileUploadControl.aspx" />
+    <Content Include="MultiViewControl.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="FileUploadControl.aspx.designer.cs">
       <DependentUpon>FileUploadControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiViewControl.aspx.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiViewControl.aspx.designer.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
